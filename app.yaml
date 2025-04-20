@@ -1,0 +1,6 @@
+kind: wasmer.io/App.v0
+name: wasmer-php-result
+owner: dodypribadi5
+package: .
+scaling:
+  mode: single_concurrency
